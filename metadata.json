@@ -1,0 +1,147 @@
+{
+    "accuracy": 0.9,
+    "features": {
+        "battery_power": {
+            "type": "numerical",
+            "min": 501.0,
+            "max": 1998.0,
+            "default": 1226
+        },
+        "blue": {
+            "type": "binary",
+            "min": 0.0,
+            "max": 1.0,
+            "default": 0
+        },
+        "clock_speed": {
+            "type": "numerical",
+            "min": 0.5,
+            "max": 3.0,
+            "default": 1.5
+        },
+        "dual_sim": {
+            "type": "binary",
+            "min": 0.0,
+            "max": 1.0,
+            "default": 1
+        },
+        "fc": {
+            "type": "numerical",
+            "min": 0.0,
+            "max": 19.0,
+            "default": 3
+        },
+        "four_g": {
+            "type": "binary",
+            "min": 0.0,
+            "max": 1.0,
+            "default": 1
+        },
+        "int_memory": {
+            "type": "numerical",
+            "min": 2.0,
+            "max": 64.0,
+            "default": 32
+        },
+        "m_dep": {
+            "type": "numerical",
+            "min": 0.1,
+            "max": 1.0,
+            "default": 0.5
+        },
+        "mobile_wt": {
+            "type": "numerical",
+            "min": 80.0,
+            "max": 200.0,
+            "default": 141
+        },
+        "n_cores": {
+            "type": "numerical",
+            "min": 1.0,
+            "max": 8.0,
+            "default": 4
+        },
+        "pc": {
+            "type": "numerical",
+            "min": 0.0,
+            "max": 20.0,
+            "default": 10
+        },
+        "px_height": {
+            "type": "numerical",
+            "min": 0.0,
+            "max": 1960.0,
+            "default": 564
+        },
+        "px_width": {
+            "type": "numerical",
+            "min": 500.0,
+            "max": 1998.0,
+            "default": 1247
+        },
+        "ram": {
+            "type": "numerical",
+            "min": 256.0,
+            "max": 3998.0,
+            "default": 2146.5
+        },
+        "sc_h": {
+            "type": "numerical",
+            "min": 5.0,
+            "max": 19.0,
+            "default": 12
+        },
+        "sc_w": {
+            "type": "numerical",
+            "min": 0.0,
+            "max": 18.0,
+            "default": 5
+        },
+        "talk_time": {
+            "type": "numerical",
+            "min": 2.0,
+            "max": 20.0,
+            "default": 11
+        },
+        "three_g": {
+            "type": "binary",
+            "min": 0.0,
+            "max": 1.0,
+            "default": 1
+        },
+        "touch_screen": {
+            "type": "binary",
+            "min": 0.0,
+            "max": 1.0,
+            "default": 1
+        },
+        "wifi": {
+            "type": "binary",
+            "min": 0.0,
+            "max": 1.0,
+            "default": 1
+        }
+    },
+    "feature_importances": {
+        "battery_power": 0.13081984221935272,
+        "blue": 0.011671546846628189,
+        "clock_speed": 0.0169998612254858,
+        "dual_sim": 0.01873837597668171,
+        "fc": 0.016931911930441856,
+        "four_g": 0.007043677847832441,
+        "int_memory": 0.02220584638416767,
+        "m_dep": 0.032673295587301254,
+        "mobile_wt": 0.028038062155246735,
+        "n_cores": 0.023936649784445763,
+        "pc": 0.018351752310991287,
+        "px_height": 0.092445008456707,
+        "px_width": 0.07420608401298523,
+        "ram": 0.40321508049964905,
+        "sc_h": 0.022609077394008636,
+        "sc_w": 0.020484110340476036,
+        "talk_time": 0.01505668181926012,
+        "three_g": 0.01932694762945175,
+        "touch_screen": 0.015024200081825256,
+        "wifi": 0.010221988894045353
+    }
+}
